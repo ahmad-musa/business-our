@@ -349,8 +349,10 @@
 
 .about .container{
     background: var(--color2);
-    padding: 0 82px!important;
-    border-bottom: 3px solid white;
+    padding: 0 165px 0 82px!important ;
+    border-bottom: 3px solid white;  
+
+    /* EXTRA BORDER IS PROVIDED */
 }
 
 .about .col-6 .img{
@@ -367,7 +369,7 @@
 .about .details {
     font-size: 13px;
     line-height: 1.846; 
-    text-align: justify;
+    /* text-align: justify; */
     margin: 36px 0 0 0;
 }
 
