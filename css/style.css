@@ -40,19 +40,15 @@
 .fs14 {
     font-size: 14px;
 }
-
 .fs16 {
     font-size: 16px;
 }
-
 .fs26 {
     font-size: 26px;
 }
-
 .fs30 {
     font-size: 30px;
 }
-
 .fs48 {
     font-size: 48px;
 }
@@ -65,7 +61,7 @@
     background: url("../image/hero-bg.png") no-repeat top;
     background-size: cover;
     color: var(--white);
-    /* height: 40vh; */
+    overflow-x: hidden;
 }
 
 .overlay {
@@ -261,24 +257,58 @@
 
 /* Offer Section Starts */
 
-.offer .heading{
+.offer{
+    height: 740px;
+}
+
+.offer .item{
+    margin: 85px 0;
+}
+
+.offer .item .heading{
     font-family: var(--opensans);
     color: var(--color1);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 0.846;
-    margin-top: 82px!important;
 }
 
 .offer .para{
     font-family: var(--opensans);
     color: var(--color1_lt);
-    line-height: 1.375;
+    margin-top: 10px;
 }
 
-  
+.offer .row{
+    margin-bottom: 70px;
+    box-sizing: border-box;
+}
 
+.offer .col-5{
+    display: flex;
+    padding: 10px;
+}
 
+.offer .col-5:hover{
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
   
+.offer .heads {
+    font-family: var(--lato);
+    color: var(--color1_lt);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+.offer .details {
+    font-size: 13px;
+    font-family: var(--opensans);
+    color: var(--ash);
+    line-height: 1.692;
+    margin-top: 10px;
+  }
+
 
 /* Offer Section Ends */
+
+
