@@ -1,3 +1,3 @@
 # business-our
 
-### NOT responsive yet and Incomplete
+###  Incomplete and NOT responsive yet
